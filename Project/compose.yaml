@@ -1,0 +1,8 @@
+version: '3.9'  # Specify the Docker Compose file format version
+
+services:
+  img:
+    build: .
+    container_name: basic-container
+    ports:
+      - 5500:5500  # Correctly formatted as a list
